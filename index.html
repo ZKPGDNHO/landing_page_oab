@@ -9,7 +9,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navigation -->
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <div class="profile-image-container">
-                        <img src="https://via.placeholder.com/400x500" alt="Gustavo Luiz Santana" class="img-fluid profile-image">
+                        <img src="main/src/img/profile_pic.jpeg" alt="Gustavo Luiz Santana" class="img-fluid profile-image">
                     </div>
                 </div>
             </div>
@@ -89,12 +89,23 @@
                         </div>
                     </div>
                 </div>
+                 <!-- Video Container -->
+                 <div class="video-container mt-4">
+                    <h4>Conheça meu trabalho</h4>
+                    <div class="ratio ratio-16x9">
+                        <video controls poster="main/src/img/landing_page_video_thumbnail.png" class="rounded">
+                            <source src="main/src/media/landing_page_video.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <p class="text-muted mt-2 small">Assista ao vídeo para conhecer mais sobre minha atuação profissional.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Education Section -->
-    <section id="education" class="py-5 bg-light">
+    <section id="education" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-5">
@@ -224,7 +235,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5 bg-light">
+    <section id="contact" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center mb-5">
@@ -294,7 +305,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p>&copy; 2023 Gustavo Luiz Santana - Todos os direitos reservados</p>
+                    <p>&copy; 2025 Gustavo Luiz Santana - Todos os direitos reservados</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <div class="social-links">
@@ -318,10 +329,7 @@
                 <div class="modal-body">
                     <div class="pdf-embed">
                         <!-- Replace with actual PDF when available -->
-                        <div class="pdf-placeholder-large">
-                            <p>Seu certificado será exibido aqui</p>
-                            <p class="text-muted">Substitua este placeholder pelo PDF real</p>
-                        </div>
+                        <embed src="main/src/docs/certificado.pdf" type="application/pdf" width="100%" height="500px">
                     </div>
                 </div>
                 <div class="modal-footer">
